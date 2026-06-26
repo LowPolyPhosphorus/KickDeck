@@ -1,5 +1,5 @@
 # KickDeck
-using a KickPi K2B v1.1 to make a Cyberdeck inside of a mini pelican case (from aliexpress or i would have to pay $50+) 7" HDMI screen and a full keyboard with more planned for the future.
+using a KickPi K2B v1.1 to make a Cyberdeck inside of a mini pelican case (from aliexpress or i would have to pay $50+) 7" HDMI screen and a full keyboard and more.
 
 ## What is it?
 Im uisng a KickPi K2B which is almost nothing like a RPi as its an Allwinner H618 board that ships with Android TV on it and as far as I can tell is made to be used as an Anrdoid TV box with its IR sensor onboard and of course the OS that comes with it but it supports Ubuntu and Android according to the docs! Im trying to turn this into a cyberdeck inside of a Pelican case or similar 
