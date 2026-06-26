@@ -17,12 +17,12 @@ Currently this is only in the design phase so most of my hardware is not purchas
 - KickPi's own PDF on the website contradicts its self a couple tiems where it says it runs on 12V in one table and Type-C 5V in the power supply row, 5v is correct since it only has a USB c port no 12V barrel input onboard, its raw GPIO pin name table also doesn't match the actual pinout diagram????
 
 ## The current build/concept
-**brain:** KickPi K2B V1.1
-**screen:** 7" 1024x600 HDMI touchscreen (2 micro USB cables, one's power, one's touch data)
-**power:** Waveshare UPS HAT (E), 4x 21700 Li-ion cells, 6A output
-**input:** mini keyboard w/ built-in touchpad 
-**extras:** SSD1306 OLED, EC11 rotary encoder, panel-mount LED indicators, 16mm self-locking power button, small 5V fan
-**case:** mini pelican-style, ~9.84" external width
+**brain:** KickPi K2B V1.1 <br>
+**screen:** 7" 1024x600 HDMI touchscreen (2 micro USB cables, one's power, one's touch data) <br>
+**power:** Waveshare UPS HAT (E), 4x 21700 Li-ion cells, 6A output <br>
+**input:** mini keyboard w/ built-in touchpad <br>
+**extras:** SSD1306 OLED, EC11 rotary encoder, panel-mount LED indicators, 16mm self-locking power button, small 5V fan <br>
+**case:** mini pelican-style, ~9.84" external width <br>
 
 full parts list with prices/links/status is going to be in the BOM soon to be added to the repo, the pinout already has all of the pin assignments but some are TBD 
 
