@@ -1,0 +1,43 @@
+KickDeck Pinout
+
+OLED (SSD1306, I2C4)
+VCC -> Pin 1 (5V)
+GND -> Pin 16 
+SDA -> Pin 9
+SCL -> Pin 13
+
+Rotary Encoder (EC11)
+CLK -> TBD
+DT -> TBD
+SW -> TBD
+VCC -> TBD
+GND -> TBD
+
+Power Button
+Switch -> UPS HAT (E) power button input (TBD)
+LED + -> TBD
+LED - -> TBD
+
+Indicator LEDs
++ -> TBD
+- -> TBD
+
+Fan
++ -> 5V Rail
+- -> GND
+
+USB Port 1 -> Internal hub
+  Hub Port 1 -> Touch controller (data)
+  Hub Port 2 -> Keyboard/touchpad combo
+  Hub Port 3 -> 32 gb Flashdrive
+  Hub Port 4 -> Display Power
+
+USB Port 2 -> External hub
+  Hub Port 1 -> spare (external)
+  Hub Port 2 -> spare (external)
+  Hub Port 3 -> spare (external)
+  Hub Port 4 -> spare (external)
+
+UPS Hat power
+Power -> USB C in 
+USB A out -> USB C in (on K2B)
