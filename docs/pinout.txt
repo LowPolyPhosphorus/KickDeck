@@ -2,25 +2,29 @@ KickDeck Pinout
 
 OLED (SSD1306, I2C4)
 VCC -> Pin 1 (5V)
-GND -> Pin 16 
+GND -> Pin 16
 SDA -> Pin 9
 SCL -> Pin 13
 
 Rotary Encoder (EC11)
 CLK -> TBD
-DT -> TBD
-SW -> TBD
+DT  -> TBD
+SW  -> TBD
 VCC -> TBD
 GND -> TBD
 
-Power Button
-Switch -> UPS HAT (E) power button input (TBD)
-LED + -> TBD
-LED - -> TBD
+Power Button (RGB ring, only Green wired)
+Switch -> wired in parallel with UPS HAT (E) onboard ON/OFF slide switch leads
+C+ / C- -> 5V rail (LED common)
+G   -> 5V rail (direct, always on)
+R   -> not wired
+B   -> not wired
 
 Indicator LEDs
-+ -> TBD
-- -> TBD
+HDD Activity (dim, PWM) -> Pin 10 (PWM1)
+  GND -> Pin 19
+Battery Level / Low Battery -> Pin 12 (GPIO_PC12)
+  GND -> Pin 19
 
 Fan
 + -> 5V Rail
@@ -29,7 +33,7 @@ Fan
 USB Port 1 -> Internal hub
   Hub Port 1 -> Touch controller (data)
   Hub Port 2 -> Keyboard/touchpad combo
-  Hub Port 3 -> 32 gb Flashdrive
+  Hub Port 3 -> 32GB Flash drive
   Hub Port 4 -> Display Power
 
 USB Port 2 -> External hub
@@ -38,6 +42,7 @@ USB Port 2 -> External hub
   Hub Port 3 -> spare (external)
   Hub Port 4 -> spare (external)
 
-UPS Hat power
-Power -> USB C in 
-USB A out -> USB C in (on K2B)
+UPS HAT (E)
+USB-C in  -> charging input only (wall charger)
+USB-A out -> K2B power (USB-C in on K2B)
+Onboard ON/OFF slide switch -> tapped in parallel by Power Button switch contacts
