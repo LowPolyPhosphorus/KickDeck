@@ -7,11 +7,11 @@ SDA -> Pin 9
 SCL -> Pin 13
 
 Rotary Encoder (EC11)
-CLK -> TBD
-DT  -> TBD
-SW  -> TBD
-VCC -> TBD
-GND -> TBD
+CLK -> Pin 14 (GPIO_PC7)
+DT  -> Pin 3  (GPIO_PH5)
+SW  -> Pin 5  (GPIO_PH4)
+VCC -> Pin 2  (3V3)
+GND -> Pin 6
 
 Power Button (RGB ring, only Green wired)
 Switch -> wired in parallel with UPS HAT (E) onboard ON/OFF slide switch leads
