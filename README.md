@@ -14,7 +14,7 @@ Currently this is only in the design phase so most of my hardware is not purchas
 
 ### Current Issues
 - stock android TV has no back button and the operating system has almost nothing on it, so its kinda useless as a cyberdeck
-- KickPi's own PDF on the website contradicts its self a couple tiems where it says it runs on 12V in one table and Type-C 5V in the power supply row, 5v is correct since it only has a USB c port no 12V barrel input onboard, its raw GPIO pin name table also doesn't match the actual pinout diagram????
+- KickPi's own PDF on the website contradicts its self a couple times where it says it runs on 12V in one table and Type-C 5V in the power supply row, 5v is correct since it only has a USB c port no 12V barrel input onboard, its raw GPIO pin name table also doesn't match the actual pinout diagram????
 
 ## The current build/concept
 **brain:** KickPi K2B V1.1 <br>
@@ -48,3 +48,6 @@ full parts list with prices/links/status is going to be in the BOM and below thi
 | **Estimated on sale price (left to purchase)** | | **~$90.99** | |
 
 </details>
+
+## Current design:
+<img width="1161" height="738" alt="image" src="https://github.com/user-attachments/assets/6087067f-018b-4cf0-9b86-ac30d354518c" />
