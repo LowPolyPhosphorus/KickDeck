@@ -1,4 +1,5 @@
 # LOG 1
+54m 29s logged
 ## BOM Research 
 
 did some BOM research
@@ -15,7 +16,7 @@ so far I did the following:
 <img width="1600" height="629" alt="image" src="https://github.com/user-attachments/assets/c4a169ab-818c-424b-a779-587c08304c64" />
 
 # LOG 2
-
+1h 1m 29s logged
 ## BOM Finalization (mostly)
 
 ### UPS Module
@@ -46,7 +47,7 @@ I was going to use a fan I already have but the fan uses 12V which would run hor
 <img width="1195" height="619" alt="image" src="https://github.com/user-attachments/assets/0e0cabc4-f836-4de1-b665-183b61925395" />
 
 # LOG 3
-
+2h 9m 34s logged
 ## another devlog!
 
 ### UPS HAT
