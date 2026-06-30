@@ -51,4 +51,5 @@ full parts list with prices/links/status is going to be in the BOM and below thi
 </details>
 
 ## Current design:
-<img width="1161" height="738" alt="image" src="https://github.com/user-attachments/assets/6087067f-018b-4cf0-9b86-ac30d354518c" />
+<img width="1043" height="650" alt="image" src="https://github.com/user-attachments/assets/1de02fe9-ec30-4ea6-acc1-6b87ebd93dda" />
+
