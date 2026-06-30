@@ -116,3 +116,21 @@ literally nothing listed its actual dimensions so I got creative!
 ### (still) unresolved things
 - aux jack panel not on the diagram
 - cable routing and such STILL not finalized
+
+---
+
+# LOG 5
+0h 53m
+## Making the logo
+Theres not much to say but I kinda spent like an hour doing this because I kept making new logos and scrpapping the last one I went through like 3 iterations and landed on this. which is pretty simple.
+this is it
+
+<img alt="image" src="graphics/dark-mode-kickdeck-logo.png" />
+
+I also edited the colors so that it has a version that works on light backgrounds but it will look a little weird displayed here unless you have... light mode on
+
+<img alt="image" src="graphics/light-mode-kickdeck-logo.png" />
+
+thats it.
+
+---
