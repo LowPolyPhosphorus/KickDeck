@@ -1,4 +1,5 @@
-# KickDeck
+<img alt="image" src="graphics/dark-mode-kickdeck-logo.png" />
+
 K2B + 7" touchscreen, UPS-powered, OLED status display, rotary encoder, dual indicator LEDs, custom panel-mount controls in a cyberdeck
 
 ## What is it?
