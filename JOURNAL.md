@@ -15,6 +15,8 @@ so far I did the following:
 
 <img width="1600" height="629" alt="image" src="https://github.com/user-attachments/assets/c4a169ab-818c-424b-a779-587c08304c64" />
 
+---
+
 # LOG 2
 1h 1m 29s logged
 ## BOM Finalization (mostly)
@@ -46,6 +48,8 @@ I was going to use a fan I already have but the fan uses 12V which would run hor
 
 <img width="1195" height="619" alt="image" src="https://github.com/user-attachments/assets/0e0cabc4-f836-4de1-b665-183b61925395" />
 
+---
+
 # LOG 3
 2h 9m 34s logged
 ## another devlog!
@@ -75,4 +79,40 @@ I was going to use a fan I already have but the fan uses 12V which would run hor
 Stardance doesn't seem to support markdown CSV ??? so here's a screenshot, its also on the repo [here](https://github.com/LowPolyPhosphorus/KickDeck/blob/main/docs/BOM.csv)
 <img width="1066" height="590" alt="image" src="https://github.com/user-attachments/assets/1e7924bb-a71d-4385-8a5c-1ac1a2f892e3" />
 
+---
+
 # LOG 4
+2h 2m
+
+## Layout Design + Draw.io Diagram
+I did some touch ups to the previous paper diagram that was not scaled or anything you can see here ```\/\/```
+
+<img width="1039" height="893" alt="image" src="https://github.com/user-attachments/assets/44af39c8-cf46-4e4d-8419-89a2dda63d13" />
+
+### Draw.io layout 
+I setup the diagram using a 1 inch = 100pt so 9.81" is 981pt because Draw.io measures in pt this scale is across the board, everything is drawn to that scale. I added sections for all views:
+- Top External: the screen lid, 7" display with mounting holes at all 4 corners
+- Bottom External: the "basement" showing where everything actually lives in the case (K2B, UPS HAT, USB hubs, fan)
+- Bottom External Left: fan vent output
+- Bottom External Right: UPS I/O (charging port + power switch access)
+- Bottom Internal: top-down view of the full internal component layout
+<img src="docs/drawio-kickdeck-layout.drawio.svg" />
+
+I also locked in that the rotary encoder is going to do volume control (its kinda an obvious choice and why I added it in the first place :/) and I plan to add a AUX extender I already have but I'm not sure if it will work so its *not* in the diagram yet
+
+### getting dimensions sucked 
+literally nothing listed its actual dimensions so I got creative!
+- K2B: measured with calipers, I already have it and that one is exact
+- 7" display: also calipers but they were too short to get the width so I had to do ***MATH*** :(
+- OLED + rotary encoder: measured ones I have already, except the rotary encoder I measured was from another project cause I dont have any on hand for the KickDeck yet
+- Keyboard: nothing. no dimensions listed anywhere but I found a more expensive dropship of the same thing with a listing for 150x60x10mm and I used that
+- USB hub: no listing dimensions at all, approximated from USB-A port thickness since thats the one thing I could actually reference
+- UPS HAT (E): Waveshare doesn't list dimensions either but the HAT is designed to mount on a RPi so I got the board dimensions of that from forums and used that as the footprint since it should be similar
+- USB port cutout dimensions: actually sourced these properly from the official USB-IF pdfs: USB A from the [CCWG Type-A Plug Form Factor Guideline](https://www.usb.org/sites/default/files/CCWG_A_Plug_Form_Factor_Guideline_Revision_1.0_.pdf) and [USB-C from the Type-C Spece R2.0 ](https://www.usb.org/sites/default/files/USB%20Type-C%20Spec%20R2.0%20-%20August%202019.pdf)
+
+<img width="635" height="566" alt="image" src="https://github.com/user-attachments/assets/1cbba7ef-f1aa-4eec-92ee-fad3729147fc" />
+<img width="800" height="731" alt="image" src="https://github.com/user-attachments/assets/053b05d2-a76d-4072-aebd-a4c0c3dd77c2" />
+
+### (still) unresolved things
+- aux jack panel not on the diagram
+- cable routing and such STILL not finalized
