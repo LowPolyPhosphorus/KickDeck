@@ -134,3 +134,34 @@ I also edited the colors so that it has a version that works on light background
 thats it.
 
 ---
+
+# LOG 6
+1h 50m
+
+## bottom internal layout finalized
+
+- I reorganized the hub positions after realizing both USB hubs and the AUX extender have short cables, so I moved one of the hubs and the K2B closer to the external USB hub
+- I traced all the wires except the GPIO stuff and keyboard cause it would get messy
+heres the updated thing
+
+<img alt="image" src="docs/drawio-kickdeck-layout.drawio.svg" />
+
+## Fan/airflow resolved
+- I looked into doing a real CFD sim, I pulled pelicans official CAD file, converted the step to STL to try a browser based tool, kept failing with "no openings detected"
+
+ <img width="1397" height="763" alt="image" src="https://github.com/user-attachments/assets/126c4d84-b6c0-4ab5-82a8-bf1a4aad1a03" />
+
+ - root cause: I think the STL didnt store the hole data (that I added separately in CAD) and just thinks its a wall but im also too stupid for "industry" grade stuff like that :/
+ - I just decided that the fan should just have a mostly clear unobstructed straight-line path to the K2B in the layout with no components in between
+ - decided the fan should be a exhaust to pull heat OUT and I will have to cut more holes  on the oposite side for the fan to pull air through
+
+## AUX jack 
+- measured the extender I found to be about a foot long also it splits into two plugs for audio and microphone so no real cable length constraint like the hubs have
+- the aux ports go out to the front external bottom part
+
+## still open
+- photos of owned parts ig
+- README needs updating
+- i can probably submit soon
+
+---
