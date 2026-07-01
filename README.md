@@ -3,11 +3,10 @@
 K2B + 7" touchscreen, UPS-powered, OLED status display, rotary encoder, dual indicator LEDs, custom panel-mount controls in a cyberdeck
 
 ## What is it?
-Im uisng a KickPi K2B which is almost nothing like a RPi as its an Allwinner H618 board that ships with Android TV on it and as far as I can tell is made to be used as an Anrdoid TV box with its IR sensor onboard and of course the OS that comes with it but it supports Ubuntu and Android according to the docs! Im trying to turn this into a cyberdeck inside of a Pelican case or similar 
+Im uisng a KickPi K2B which is actually almost nothing like a RPi as its an Allwinner H618 board that ships with Android TV on it and as far as I can tell is made to be used as an Android TV box with its IR sensor onboard and of course the OS that comes with it but it supports Ubuntu and Android according to the docs! Im trying to turn this into a cyberdeck inside of a Pelican case or similar 
 
 ## Status
-Currently this is only in the design phase so most of my hardware is not purchased yet, nothing is wired or flashed and no software or hardware changes have been made other than plugging the display into the board so at the moment im just confirming the specs and docs.
-
+Design phase is essentially complete, the full internal layout, wiring, and component placement have been mapped out into a scaled draw.io diagram (see below), covering both hubs, the UPS HAT, fan placement/airflow direction, AUX routing, and the OLED/rotary encoder cluster. Nothing is physically built yet, no hardware purchased beyond what I already owned (K2B, display, OLED), nothing wired or flashed. Currently all of my progress can be found [here](JOURNAL.md) 
 ### Confirmed/Working parts 
 - K2B V1.1 + 7" display both power on and work
 - touch input works
@@ -50,6 +49,8 @@ full parts list with prices/links/status is going to be in the BOM and below thi
 
 </details>
 
-## Current design:
+## Current design
+Full internal layout, K2B, both USB hubs, UPS HAT (E), fan, and every wire traced end to end (touch/screen power/HDMI, USB hub connections, AUX split, UPS charging):
 <img alt="draw.io kickdeck layout" src="docs/drawio-kickdeck-layout.drawio.svg" />
 
+Fan is positioned for a clear, unobstructed path to the K2B and runs as exhaust, pulling heat off the board and out through the case wall, with other cutouts (UPS I/O, hub ports, AUX hole) doubling as passive intake. Logo placement: top-center, outside of the case.
