@@ -24,7 +24,7 @@ Design phase is essentially complete, the full internal layout, wiring, and comp
 **extras:** SSD1306 OLED, EC11 rotary encoder, panel-mount LED indicators, 16mm self-locking power button, small 5V fan <br>
 **case:** mini pelican-style, ~9.84" external width <br>
 
-full parts list with prices/links/status is going to be in the BOM and below this text, the pinout already has all of the pin assignments but some are TBD 
+full parts list with prices/links/status is going to be in the BOM and below this text, the pinout is now finalized and everything is soon to be submitted
 
 <details>
 <summary>BOM (click to expand)</summary>
