@@ -51,5 +51,5 @@ full parts list with prices/links/status is going to be in the BOM and below thi
 </details>
 
 ## Current design:
-<img width="1043" height="650" alt="image" src="https://github.com/user-attachments/assets/1de02fe9-ec30-4ea6-acc1-6b87ebd93dda" />
+<img alt="draw.io kickdeck layout" src="docs/drawio-kickdeck-layout.drawio.svg" />
 
