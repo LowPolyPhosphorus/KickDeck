@@ -1,0 +1,32 @@
+Component,Signal,Connects To
+OLED (SSD1306, I2C4),VCC,Pin 1 (5V)
+OLED (SSD1306, I2C4),GND,Pin 16
+OLED (SSD1306, I2C4),SDA,Pin 9
+OLED (SSD1306, I2C4),SCL,Pin 13
+Rotary Encoder (EC11),CLK,Pin 14 (GPIO_PC7)
+Rotary Encoder (EC11),DT,Pin 3 (GPIO_PH5)
+Rotary Encoder (EC11),SW,Pin 5 (GPIO_PH4)
+Rotary Encoder (EC11),VCC,Pin 2 (3V3)
+Rotary Encoder (EC11),GND,Pin 6
+Power Button (RGB ring - only Green wired),Switch,Wired in parallel with UPS HAT (E) onboard ON/OFF slide switch leads
+Power Button (RGB ring - only Green wired),C+ / C- (LED common),5V rail
+Power Button (RGB ring - only Green wired),G,5V rail (direct, always on)
+Power Button (RGB ring - only Green wired),R,Not wired
+Power Button (RGB ring - only Green wired),B,Not wired
+Indicator LED - HDD Activity (dim, PWM),Signal,Pin 10 (PWM1)
+Indicator LED - HDD Activity (dim, PWM),GND,Pin 19
+Indicator LED - Battery Level / Low Battery,Signal,Pin 12 (GPIO_PC12)
+Indicator LED - Battery Level / Low Battery,GND,Pin 19
+Fan,+,5V Rail
+Fan,-,GND
+USB Port 1 (Internal hub),Hub Port 1,Touch controller (data)
+USB Port 1 (Internal hub),Hub Port 2,Keyboard/touchpad combo
+USB Port 1 (Internal hub),Hub Port 3,32GB Flash drive
+USB Port 1 (Internal hub),Hub Port 4,Display Power
+USB Port 2 (External hub),Hub Port 1,Spare (external)
+USB Port 2 (External hub),Hub Port 2,Spare (external)
+USB Port 2 (External hub),Hub Port 3,Spare (external)
+USB Port 2 (External hub),Hub Port 4,Spare (external)
+UPS HAT (E),USB-C in,Charging input only (wall charger)
+UPS HAT (E),USB-A out,K2B power (USB-C in on K2B)
+UPS HAT (E),Onboard ON/OFF slide switch,Tapped in parallel by Power Button switch contacts
