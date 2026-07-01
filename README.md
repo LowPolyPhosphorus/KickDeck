@@ -54,3 +54,5 @@ Full internal layout, K2B, both USB hubs, UPS HAT (E), fan, and every wire trace
 <img alt="draw.io kickdeck layout" src="docs/drawio-kickdeck-layout.drawio.svg" />
 
 Fan is positioned for a clear, unobstructed path to the K2B and runs as exhaust, pulling heat off the board and out through the case wall, with other cutouts (UPS I/O, hub ports, AUX hole) doubling as passive intake. Logo placement: top-center, outside of the case.
+<img width="883" height="686" alt="image" src="https://github.com/user-attachments/assets/799da8c1-127a-40b1-a2da-99c0864084f8" />
+> parts i have ^^
