@@ -165,3 +165,14 @@ heres the updated thing
 - i can probably submit soon
 
 ---
+
+# LOG 7
+0h 36m
+## Final README Polish + Photos
+- I added pinout.csv for a more visually appealing pinout
+- I added photos of my owned parts (K2B, display, OLED, and more) to the repo
+- updated README: status section reflects design phase now
+
+its now much closer to being submitted 
+
+---
