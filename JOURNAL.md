@@ -173,6 +173,19 @@ heres the updated thing
 - I added photos of my owned parts (K2B, display, OLED, and more) to the repo
 - updated README: status section reflects design phase now
 
-its now much closer to being submitted 
+---
+
+# LOG 8 
+1h 36m
+
+## GPIO/Software Stub Scripts
+I wrote 3 untested scripts to be in the repo before I have the actual hardware, they are untested and I will have to confirm and edit them after I get the parts and funding.
+- HDD activity LED (PWM1, PIN 10) reads write activity from `/proc/diskstats`, drives PWM duty cycle for dim idle vs active flash.
+- Battery level LED (PIN 12) reads battery % over I2C from the UPS HAT (E), lights LED below a threshold.
+- Rotary encoder volume, reads CLK/DT for rotation, SW for a mute-toggle placeholder, and it calls amixer to adjust volume.
+
+All three use plain sysfs GPIO reads/writes as placeholders rather than a real library (gpiod/periphery)
+
+submitting soon!
 
 ---
