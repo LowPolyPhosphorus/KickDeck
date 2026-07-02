@@ -180,9 +180,9 @@ heres the updated thing
 
 ## GPIO/Software Stub Scripts
 I wrote 3 untested scripts to be in the repo before I have the actual hardware, they are untested and I will have to confirm and edit them after I get the parts and funding.
-- HDD activity LED (PWM1, PIN 10) reads write activity from `/proc/diskstats`, drives PWM duty cycle for dim idle vs active flash.
-- Battery level LED (PIN 12) reads battery % over I2C from the UPS HAT (E), lights LED below a threshold.
-- Rotary encoder volume, reads CLK/DT for rotation, SW for a mute-toggle placeholder, and it calls amixer to adjust volume.
+- [HDD activity](scripts/hdd_activity.py) LED (PWM1, PIN 10) reads write activity from `/proc/diskstats`, drives PWM duty cycle for dim idle vs active flash.
+- [Battery level](scripts/batt_level.py) LED (PIN 12) reads battery % over I2C from the UPS HAT (E), lights LED below a threshold.
+- [Rotary encoder](scripts/rotary_volume.py) volume, reads CLK/DT for rotation, SW for a mute-toggle placeholder, and it calls amixer to adjust volume.
 
 All three use plain sysfs GPIO reads/writes as placeholders rather than a real library (gpiod/periphery)
 
