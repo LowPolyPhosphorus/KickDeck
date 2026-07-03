@@ -56,3 +56,10 @@ Full internal layout, K2B, both USB hubs, UPS HAT (E), fan, and every wire trace
 Fan is positioned for a clear, unobstructed path to the K2B and runs as exhaust, pulling heat off the board and out through the case wall, with other cutouts (UPS I/O, hub ports, AUX hole) doubling as passive intake. Logo placement: top-center, outside of the case.
 <img width="883" height="686" alt="image" src="https://github.com/user-attachments/assets/799da8c1-127a-40b1-a2da-99c0864084f8" />
 > parts i have ^^
+
+## Renders
+
+<img alt="image" src="graphics/renders/3c27b84c-fd7d-4d79-95af-2f4f8bb0237c.PNG" />
+<img alt="image" src="graphics/renders/3b27f3c2-fb7a-48c7-947f-c034c5e49c81.PNG" />
+<img alt="image" src="graphics/renders/b1115ec9-2e48-4e7b-8497-7a908fd03a99.PNG" />
+<img alt="image" src="graphics/renders/da65d590-1931-401a-a523-f9e4e063e516.PNG" />
