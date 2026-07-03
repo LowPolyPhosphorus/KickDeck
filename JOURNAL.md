@@ -189,3 +189,30 @@ All three use plain sysfs GPIO reads/writes as placeholders rather than a real l
 submitting soon!
 
 ---
+
+# LOG 9 
+3h 32m
+## CAD & Renders
+
+My submission was rejected after the last log because there was no CAD or renders to conceptualize what the device is, in this session I made all of the CAD and did the renders which are now in the readme! (and logo)
+
+it ended up looking like this <img width="1910" height="1006" alt="image" src="https://github.com/user-attachments/assets/d74669d5-6a78-4e14-8218-58e9b7513288" />
+
+and these are some images from along the way!
+<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/5a209dd8-8096-4c0a-93f3-1fd64ec79eb5" />
+<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/7c61c611-5dd3-40da-a51d-b8b4bc1a1364" />
+
+and these are all the models I used in it!
+- case: https://grabcad.com/library/pelican-1150-case-1
+- screen: https://grabcad.com/library/hdmi-raspberry-pi-touch-screen-1024-600-7inch-model-1
+- keyboard: https://grabcad.com/library/rii-mini-x1-keyboard-detailed-1
+- led indicator: https://grabcad.com/library/industrial-led-indicator-lights-24v-color-pack-1/details?folder_id=14244499
+- led button: https://grabcad.com/library/led-button-1
+- oled display: https://grabcad.com/library/0-point-96-inch-oled-display-1
+- rotary encoder: https://grabcad.com/library/rotation-encoder-1
+- USB port: https://grabcad.com/library/usb-port-16
+- 40mm fan: https://grabcad.com/library/40mm-fan-8
+
+thats it im submitting again!
+
+---
