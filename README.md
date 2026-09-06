@@ -6,7 +6,7 @@ K2B + 7" touchscreen, UPS-powered, OLED status display, rotary encoder, dual ind
 Im uisng a KickPi K2B which is actually almost nothing like a RPi as its an Allwinner H618 board that ships with Android TV on it and as far as I can tell is made to be used as an Android TV box with its IR sensor onboard and of course the OS that comes with it but it supports Ubuntu and Android according to the docs! Im trying to turn this into a cyberdeck inside of a Pelican case or similar 
 
 ## Status
-Design phase is essentially complete, the full internal layout, wiring, and component placement have been mapped out into a scaled draw.io diagram (see below), covering both hubs, the UPS HAT, fan placement/airflow direction, AUX routing, and the OLED/rotary encoder cluster. Nothing is physically built yet, no hardware purchased beyond what I already owned (K2B, display, OLED), nothing wired or flashed. Currently all of my progress can be found [here](JOURNAL.md) 
+currently this project is in its build phase! late stage i would say...
 ### Confirmed/Working parts 
 - K2B V1.1 + 7" display both power on and work
 - touch input works
