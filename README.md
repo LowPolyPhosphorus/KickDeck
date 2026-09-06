@@ -3,7 +3,7 @@
 K2B + 7" touchscreen, UPS-powered, OLED status display, rotary encoder, dual indicator LEDs, custom panel-mount controls in a cyberdeck
 
 ## What is it?
-Im uisng a KickPi K2B which is actually almost nothing like a RPi as its an Allwinner H618 board that ships with Android TV on it and as far as I can tell is made to be used as an Android TV box with its IR sensor onboard and of course the OS that comes with it but it supports Ubuntu and Android according to the docs! Im trying to turn this into a cyberdeck inside of a Pelican case or similar 
+The KickDeck is a wip device commonly referred to as a "cyberdeck" (that term is stupid) and its a small computer inside of a cheap tiny pelican case running on the KickPi K2B
 
 ## Status
 currently this project is in its build phase! late stage i would say...
@@ -48,7 +48,7 @@ full parts list with prices/links/status is going to be in the BOM and below thi
 
 ## Current design
 Full internal layout, K2B, both USB hubs, UPS HAT (E), fan, and every wire traced end to end (touch/screen power/HDMI, USB hub connections, AUX split, UPS charging):
-<img alt="draw.io kickdeck layout" src="docs/drawio-kickdeck-layout.drawio.svg" />
+<img alt="draw.io kickdeck layout" src="docs/kickdeck-layout-v2.drawio.svg" />
 
 Fan is positioned for a clear, unobstructed path to the K2B and runs as exhaust, pulling heat off the board and out through the case wall, with other cutouts (UPS I/O, hub ports, AUX hole) doubling as passive intake. Logo placement: top-center, outside of the case.
 
