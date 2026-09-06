@@ -8,13 +8,10 @@ Im uisng a KickPi K2B which is actually almost nothing like a RPi as its an Allw
 ## Status
 currently this project is in its build phase! late stage i would say...
 ### Confirmed/Working parts 
-- K2B V1.1 + 7" display both power on and work
-- touch input works
-- display's mounting holes are good
+- everything!
 
 ### Current Issues
-- stock android TV has no back button and the operating system has almost nothing on it, so its kinda useless as a cyberdeck
-- KickPi's own PDF on the website contradicts its self a couple times where it says it runs on 12V in one table and Type-C 5V in the power supply row, 5v is correct since it only has a USB c port no 12V barrel input onboard, its raw GPIO pin name table also doesn't match the actual pinout diagram????
+- display driver issues with the 7 inch display... the os doesnt like it :(
 
 ## The current build/concept
 **brain:** KickPi K2B V1.1 <br>
