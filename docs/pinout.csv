@@ -8,11 +8,8 @@ Rotary Encoder (EC11),DT,Pin 3 (GPIO_PH5)
 Rotary Encoder (EC11),SW,Pin 5 (GPIO_PH4)
 Rotary Encoder (EC11),VCC,Pin 2 (3V3)
 Rotary Encoder (EC11),GND,Pin 6
-Power Button (RGB ring - only Green wired),Switch,Wired in parallel with UPS HAT (E) onboard ON/OFF slide switch leads
-Power Button (RGB ring - only Green wired),C+ / C- (LED common),5V rail
-Power Button (RGB ring - only Green wired),G,"5V rail (direct, always on)"
-Power Button (RGB ring - only Green wired),R,Not wired
-Power Button (RGB ring - only Green wired),B,Not wired
+Power Button (RGB ring - only Green wired),+,Pin3 GPIO PH5
+Power Button (RGB ring - only Green wired),- (LED common), Pin 16 GND
 "Indicator LED - HDD Activity (dim, PWM)",Signal,Pin 10 (PWM1)
 "Indicator LED - HDD Activity (dim, PWM)",GND,Pin 19
 Indicator LED - Battery Level / Low Battery,Signal,Pin 12 (GPIO_PC12)
